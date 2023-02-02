@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+.kaj{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gold;
+
+
+    
+}
+.k1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 10px 20px 30px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.k1 a:hover{
+    background-color: black;
+}
+.k1 a:hover{
+    color:wheat;
+}
+
+.f0{
+    background-color: azure;
+    width: 250px;
+    height: 350px;
+    position:absolute ;
+    left: 100px;
+    bottom: 100px; 
+    padding: 2px;
+    text-align: center;
+    box-shadow: inset 5px 5px 20px aliceblue, inset 5px 5px 20px antiquewhite;
+    margin-top: 600px; 
+display: inline-block;
+}
+.uff{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+h1{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: dotted 2px red;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 15px;
+    border-radius: 20px;
+    border: solid salmon 2px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: coral;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 50%;
+    margin: 20px auto;
+    
+    
+
+
+    
+
+}
+
+ul {
+    margin-top: 40px;
+    background-color: aqua;
+    padding: 30px;
+
+}
+ul li{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
