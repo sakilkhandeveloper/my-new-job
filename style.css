@@ -95,3 +95,8 @@ ul li{
     margin-top: 10px;
     cursor: pointer;
 }
+.box{
+    height: 300px;
+    width: 34%;
+    color: black;
+      }
